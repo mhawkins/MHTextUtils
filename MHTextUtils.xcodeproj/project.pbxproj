@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9F9C3A1177F221A005065C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3A0177F221A005065C6 /* Foundation.framework */; };
+		C9F9C3A6177F221A005065C6 /* MHTextUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9F9C3A5177F221A005065C6 /* MHTextUtils.h */; };
+		C9F9C3A8177F221A005065C6 /* MHTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3A7177F221A005065C6 /* MHTextUtils.m */; };
+		C9F9C3B0177F221A005065C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */; };
+		C9F9C3B2177F221A005065C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3B1177F221A005065C6 /* UIKit.framework */; };
+		C9F9C3B3177F221A005065C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3A0177F221A005065C6 /* Foundation.framework */; };
+		C9F9C3B6177F221A005065C6 /* libMHTextUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C39D177F221A005065C6 /* libMHTextUtils.a */; };
+		C9F9C3BC177F221A005065C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F9C3BA177F221A005065C6 /* InfoPlist.strings */; };
+		C9F9C3BF177F221A005065C6 /* MHTextUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9F9C3B4177F221A005065C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9F9C395177F221A005065C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F9C39C177F221A005065C6;
+			remoteInfo = MHTextUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9F9C39B177F221A005065C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				C9F9C3A6177F221A005065C6 /* MHTextUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9F9C39D177F221A005065C6 /* libMHTextUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMHTextUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F9C3A0177F221A005065C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9F9C3A4177F221A005065C6 /* MHTextUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHTextUtils-Prefix.pch"; sourceTree = "<group>"; };
+		C9F9C3A5177F221A005065C6 /* MHTextUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTextUtils.h; sourceTree = "<group>"; };
+		C9F9C3A7177F221A005065C6 /* MHTextUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextUtils.m; sourceTree = "<group>"; };
+		C9F9C3AE177F221A005065C6 /* MHTextUtilsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHTextUtilsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9F9C3B1177F221A005065C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9F9C3B9177F221A005065C6 /* MHTextUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MHTextUtilsTests-Info.plist"; sourceTree = "<group>"; };
+		C9F9C3BB177F221A005065C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9F9C3BD177F221A005065C6 /* MHTextUtilsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTextUtilsTests.h; sourceTree = "<group>"; };
+		C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextUtilsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F9C39A177F221A005065C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F9C3A1177F221A005065C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F9C3AA177F221A005065C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F9C3B0177F221A005065C6 /* SenTestingKit.framework in Frameworks */,
+				C9F9C3B2177F221A005065C6 /* UIKit.framework in Frameworks */,
+				C9F9C3B3177F221A005065C6 /* Foundation.framework in Frameworks */,
+				C9F9C3B6177F221A005065C6 /* libMHTextUtils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9F9C394177F221A005065C6 = {
+			isa = PBXGroup;
+			children = (
+				C9F9C3A2177F221A005065C6 /* MHTextUtils */,
+				C9F9C3B7177F221A005065C6 /* MHTextUtilsTests */,
+				C9F9C39F177F221A005065C6 /* Frameworks */,
+				C9F9C39E177F221A005065C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F9C39E177F221A005065C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9C39D177F221A005065C6 /* libMHTextUtils.a */,
+				C9F9C3AE177F221A005065C6 /* MHTextUtilsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F9C39F177F221A005065C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9C3A0177F221A005065C6 /* Foundation.framework */,
+				C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */,
+				C9F9C3B1177F221A005065C6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F9C3A2177F221A005065C6 /* MHTextUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9C3A5177F221A005065C6 /* MHTextUtils.h */,
+				C9F9C3A7177F221A005065C6 /* MHTextUtils.m */,
+				C9F9C3A3177F221A005065C6 /* Supporting Files */,
+			);
+			path = MHTextUtils;
+			sourceTree = "<group>";
+		};
+		C9F9C3A3177F221A005065C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9C3A4177F221A005065C6 /* MHTextUtils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9F9C3B7177F221A005065C6 /* MHTextUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9C3BD177F221A005065C6 /* MHTextUtilsTests.h */,
+				C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */,
+				C9F9C3B8177F221A005065C6 /* Supporting Files */,
+			);
+			path = MHTextUtilsTests;
+			sourceTree = "<group>";
+		};
+		C9F9C3B8177F221A005065C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F9C3B9177F221A005065C6 /* MHTextUtilsTests-Info.plist */,
+				C9F9C3BA177F221A005065C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F9C39C177F221A005065C6 /* MHTextUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F9C3C2177F221A005065C6 /* Build configuration list for PBXNativeTarget "MHTextUtils" */;
+			buildPhases = (
+				C9F9C399177F221A005065C6 /* Sources */,
+				C9F9C39A177F221A005065C6 /* Frameworks */,
+				C9F9C39B177F221A005065C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHTextUtils;
+			productName = MHTextUtils;
+			productReference = C9F9C39D177F221A005065C6 /* libMHTextUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9F9C3AD177F221A005065C6 /* MHTextUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F9C3C5177F221A005065C6 /* Build configuration list for PBXNativeTarget "MHTextUtilsTests" */;
+			buildPhases = (
+				C9F9C3A9177F221A005065C6 /* Sources */,
+				C9F9C3AA177F221A005065C6 /* Frameworks */,
+				C9F9C3AB177F221A005065C6 /* Resources */,
+				C9F9C3AC177F221A005065C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F9C3B5177F221A005065C6 /* PBXTargetDependency */,
+			);
+			name = MHTextUtilsTests;
+			productName = MHTextUtilsTests;
+			productReference = C9F9C3AE177F221A005065C6 /* MHTextUtilsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F9C395177F221A005065C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matt Hawkins";
+			};
+			buildConfigurationList = C9F9C398177F221A005065C6 /* Build configuration list for PBXProject "MHTextUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9F9C394177F221A005065C6;
+			productRefGroup = C9F9C39E177F221A005065C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F9C39C177F221A005065C6 /* MHTextUtils */,
+				C9F9C3AD177F221A005065C6 /* MHTextUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9F9C3AB177F221A005065C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F9C3BC177F221A005065C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9F9C3AC177F221A005065C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F9C399177F221A005065C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F9C3A8177F221A005065C6 /* MHTextUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F9C3A9177F221A005065C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F9C3BF177F221A005065C6 /* MHTextUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9F9C3B5177F221A005065C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F9C39C177F221A005065C6 /* MHTextUtils */;
+			targetProxy = C9F9C3B4177F221A005065C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9F9C3BA177F221A005065C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F9C3BB177F221A005065C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9F9C3C0177F221A005065C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9F9C3C1177F221A005065C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9F9C3C3177F221A005065C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MHTextUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHTextUtils/MHTextUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C9F9C3C4177F221A005065C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MHTextUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHTextUtils/MHTextUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C9F9C3C6177F221A005065C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHTextUtils/MHTextUtils-Prefix.pch";
+				INFOPLIST_FILE = "MHTextUtilsTests/MHTextUtilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9F9C3C7177F221A005065C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MHTextUtils/MHTextUtils-Prefix.pch";
+				INFOPLIST_FILE = "MHTextUtilsTests/MHTextUtilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F9C398177F221A005065C6 /* Build configuration list for PBXProject "MHTextUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F9C3C0177F221A005065C6 /* Debug */,
+				C9F9C3C1177F221A005065C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F9C3C2177F221A005065C6 /* Build configuration list for PBXNativeTarget "MHTextUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F9C3C3177F221A005065C6 /* Debug */,
+				C9F9C3C4177F221A005065C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9F9C3C5177F221A005065C6 /* Build configuration list for PBXNativeTarget "MHTextUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F9C3C6177F221A005065C6 /* Debug */,
+				C9F9C3C7177F221A005065C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9F9C395177F221A005065C6 /* Project object */;
+}
