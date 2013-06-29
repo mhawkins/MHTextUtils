@@ -7,6 +7,10 @@
 //
 
 #import "MHTextUtilsTests.h"
+#import "NSString+MHTextUtils.h"
+
+@interface MHTextUtilsTests(Private)
+@end
 
 @implementation MHTextUtilsTests
 
@@ -24,9 +28,37 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testTruncatingLongStringThatEndsWithNonWhitespaceCharacterAndWantsAnEllipsis
 {
-    STFail(@"Unit tests are not implemented yet in MHTextUtilsTests");
+    NSString *sampleString = @"lorem ipsum dolar";
+    NSString *result = [sampleString stringTruncatedToLength:10 withEllipsis:YES];
+    
+    // Verify strings are equal
+    STAssertTrue([result isEqualToString:@"lorem i..."], @"Truncated strings are not equal.");
+}
+
+-(void)testTruncatingLongStringThatEndsWithWhitespaceCharacterAndWantsAnEllipsis
+{
+    NSString *sampleString = @"lorem ipsum dolar";
+    NSString *result = [sampleString stringTruncatedToLength:9 withEllipsis:YES];
+    
+    STAssertTrue([result isEqualToString:@"lorem "], @"Truncated strings are not equal.");
+}
+
+- (void)testTruncatingLongStringThatEndsWithNonWhitespaceCharacterAndDoesNotWantAnEllipsis
+{
+    NSString *sampleString = @"lorem ipsum dolar";
+    NSString *result = [sampleString stringTruncatedToLength:10 withEllipsis:NO];
+    
+    STAssertTrue([result isEqualToString:@"lorem ipsu"], @"Truncated strings are not equal.");
+}
+
+-(void)testTruncatingLongStringThatEndsWithWhitespaceCharacterAndDoesNotWantAnEllipsis
+{
+    NSString *sampleString = @"lorem ipsum dolar";
+    NSString *result = [sampleString stringTruncatedToLength:9 withEllipsis:NO];
+    
+    STAssertTrue([result isEqualToString:@"lorem ips"], @"Truncated strings are not equal.");
 }
 
 @end

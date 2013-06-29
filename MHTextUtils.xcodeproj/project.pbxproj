@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C9F9C3A1177F221A005065C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3A0177F221A005065C6 /* Foundation.framework */; };
-		C9F9C3A6177F221A005065C6 /* MHTextUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9F9C3A5177F221A005065C6 /* MHTextUtils.h */; };
-		C9F9C3A8177F221A005065C6 /* MHTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3A7177F221A005065C6 /* MHTextUtils.m */; };
 		C9F9C3B0177F221A005065C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */; };
 		C9F9C3B2177F221A005065C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3B1177F221A005065C6 /* UIKit.framework */; };
 		C9F9C3B3177F221A005065C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3A0177F221A005065C6 /* Foundation.framework */; };
-		C9F9C3B6177F221A005065C6 /* libMHTextUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C39D177F221A005065C6 /* libMHTextUtils.a */; };
 		C9F9C3BC177F221A005065C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F9C3BA177F221A005065C6 /* InfoPlist.strings */; };
 		C9F9C3BF177F221A005065C6 /* MHTextUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */; };
+		C9F9C3CA177F2296005065C6 /* NSString+MHTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3C9177F2296005065C6 /* NSString+MHTextUtils.m */; };
+		C9F9C3CB177F2296005065C6 /* NSString+MHTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3C9177F2296005065C6 /* NSString+MHTextUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				C9F9C3A6177F221A005065C6 /* MHTextUtils.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +43,6 @@
 		C9F9C39D177F221A005065C6 /* libMHTextUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMHTextUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9C3A0177F221A005065C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9F9C3A4177F221A005065C6 /* MHTextUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHTextUtils-Prefix.pch"; sourceTree = "<group>"; };
-		C9F9C3A5177F221A005065C6 /* MHTextUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTextUtils.h; sourceTree = "<group>"; };
-		C9F9C3A7177F221A005065C6 /* MHTextUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextUtils.m; sourceTree = "<group>"; };
 		C9F9C3AE177F221A005065C6 /* MHTextUtilsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHTextUtilsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9F9C3B1177F221A005065C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +50,8 @@
 		C9F9C3BB177F221A005065C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9F9C3BD177F221A005065C6 /* MHTextUtilsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTextUtilsTests.h; sourceTree = "<group>"; };
 		C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextUtilsTests.m; sourceTree = "<group>"; };
+		C9F9C3C8177F2296005065C6 /* NSString+MHTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MHTextUtils.h"; sourceTree = "<group>"; };
+		C9F9C3C9177F2296005065C6 /* NSString+MHTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MHTextUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				C9F9C3B0177F221A005065C6 /* SenTestingKit.framework in Frameworks */,
 				C9F9C3B2177F221A005065C6 /* UIKit.framework in Frameworks */,
 				C9F9C3B3177F221A005065C6 /* Foundation.framework in Frameworks */,
-				C9F9C3B6177F221A005065C6 /* libMHTextUtils.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,9 +108,9 @@
 		C9F9C3A2177F221A005065C6 /* MHTextUtils */ = {
 			isa = PBXGroup;
 			children = (
-				C9F9C3A5177F221A005065C6 /* MHTextUtils.h */,
-				C9F9C3A7177F221A005065C6 /* MHTextUtils.m */,
 				C9F9C3A3177F221A005065C6 /* Supporting Files */,
+				C9F9C3C8177F2296005065C6 /* NSString+MHTextUtils.h */,
+				C9F9C3C9177F2296005065C6 /* NSString+MHTextUtils.m */,
 			);
 			path = MHTextUtils;
 			sourceTree = "<group>";
@@ -243,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F9C3A8177F221A005065C6 /* MHTextUtils.m in Sources */,
+				C9F9C3CA177F2296005065C6 /* NSString+MHTextUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F9C3BF177F221A005065C6 /* MHTextUtilsTests.m in Sources */,
+				C9F9C3CB177F2296005065C6 /* NSString+MHTextUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
