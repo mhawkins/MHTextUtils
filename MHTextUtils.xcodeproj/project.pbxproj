@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C9F9C3A1177F221A005065C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3A0177F221A005065C6 /* Foundation.framework */; };
 		C9F9C3B0177F221A005065C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */; };
-		C9F9C3B2177F221A005065C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3B1177F221A005065C6 /* UIKit.framework */; };
 		C9F9C3B3177F221A005065C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F9C3A0177F221A005065C6 /* Foundation.framework */; };
 		C9F9C3BC177F221A005065C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9F9C3BA177F221A005065C6 /* InfoPlist.strings */; };
 		C9F9C3BF177F221A005065C6 /* MHTextUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */; };
@@ -53,6 +52,7 @@
 		C9F9C3C8177F2296005065C6 /* NSString+MHTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MHTextUtils.h"; sourceTree = "<group>"; };
 		C9F9C3C9177F2296005065C6 /* NSString+MHTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MHTextUtils.m"; sourceTree = "<group>"; };
 		C9F9C3CD177F2C37005065C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		C9F9C3CE177F2D99005065C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F9C3B0177F221A005065C6 /* SenTestingKit.framework in Frameworks */,
-				C9F9C3B2177F221A005065C6 /* UIKit.framework in Frameworks */,
 				C9F9C3B3177F221A005065C6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +99,7 @@
 		C9F9C39F177F221A005065C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9F9C3CE177F2D99005065C6 /* UIKit.framework */,
 				C9F9C3A0177F221A005065C6 /* Foundation.framework */,
 				C9F9C3AF177F221A005065C6 /* SenTestingKit.framework */,
 				C9F9C3B1177F221A005065C6 /* UIKit.framework */,
