@@ -1,7 +1,7 @@
 MHTextUtils
 ===========
 
-Simple text truncating library for NSString.
+Simple text truncating library for NSString created to support "Put Objective-C Back On The Map" https://objectivechackathon.appspot.com
 
 Description
 ------------------
