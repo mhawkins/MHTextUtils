@@ -14,8 +14,18 @@ Usage
 
     import "NSString+MHTextUtils.h"
 
+    NSString *shortenedString = [@"lorem ipsum dolar" stringByTruncatingToFitLength:10];
+    // "lorem i..."
+    
+If the last character before the ellipsis would be added is whitespace, we skip adding the ellipsis
+
     NSString *shortenedString = [@"lorem ipsum dolar" stringByTruncatingToFitLength:9];
-    // lorem i...
+    // "lorem " instead of "lorem ..."
+    
+You can also specify if you want to explicitly include or exclude an ellipsis
+    
+    NSString *shortenedString = [@"lorem ipsum dolar" stringByTruncatingToFitLength:9 withEllipsis:NO];
+    // "lorem ips"
     
     
 Adding NSString+MHTextUtils to your project
