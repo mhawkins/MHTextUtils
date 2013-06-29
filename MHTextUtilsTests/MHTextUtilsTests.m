@@ -61,4 +61,21 @@
     STAssertTrue([result isEqualToString:@"lorem ips"], @"Truncated strings are not equal.");
 }
 
+- (void)testTruncatingLongStringThatEndsWithNonWhitespaceCharacter
+{
+    NSString *sampleString = @"lorem ipsum dolar";
+    NSString *result = [sampleString stringTruncatedToLength:10];
+    
+    // Verify strings are equal
+    STAssertTrue([result isEqualToString:@"lorem i..."], @"Truncated strings are not equal.");
+}
+
+-(void)testTruncatingLongStringThatEndsWithWhitespaceCharacter
+{
+    NSString *sampleString = @"lorem ipsum dolar";
+    NSString *result = [sampleString stringTruncatedToLength:9];
+    
+    STAssertTrue([result isEqualToString:@"lorem "], @"Truncated strings are not equal.");
+}
+
 @end

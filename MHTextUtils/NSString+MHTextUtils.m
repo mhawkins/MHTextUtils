@@ -56,6 +56,7 @@ static int kEllipsisLength = 3;
 
 -(NSString *)stringTruncatedToLength:(int)length
 {
+    // Assume we want an ellipsis
     return [self stringTruncatedToLength:length withEllipsis:YES];
 }
 
