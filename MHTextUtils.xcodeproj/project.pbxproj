@@ -52,6 +52,7 @@
 		C9F9C3BE177F221A005065C6 /* MHTextUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextUtilsTests.m; sourceTree = "<group>"; };
 		C9F9C3C8177F2296005065C6 /* NSString+MHTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MHTextUtils.h"; sourceTree = "<group>"; };
 		C9F9C3C9177F2296005065C6 /* NSString+MHTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MHTextUtils.m"; sourceTree = "<group>"; };
+		C9F9C3CD177F2C37005065C6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				C9F9C3B7177F221A005065C6 /* MHTextUtilsTests */,
 				C9F9C39F177F221A005065C6 /* Frameworks */,
 				C9F9C39E177F221A005065C6 /* Products */,
+				C9F9C3CD177F2C37005065C6 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
