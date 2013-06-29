@@ -6,7 +6,7 @@ Simple text truncating library for NSString.
 Description
 ------------------
 
-This is a dirt simple, unimpressive text truncating library for NSString. I had ran into a project recently where paragraphs of text were being passed into a UITableViewCell spiking its memory footprint. This project is a just quick way for dropping the memory usage.
+This is a dirt simple, unimpressive text truncating library for NSString. I had ran into a project recently where paragraphs of text were being passed into a UITableViewCell spiking its memory footprint. This project is a just quick way for dropping the memory usage by shortening the strings from paragraphs to a sentence or two.
 
 
 Usage
